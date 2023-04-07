@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "n8",
+      "position": {
+        "x": 757.638198786195,
+        "y": 1877.976439119021
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CloseHandle",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#d33115",
+        "caption-font-size": 58,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 757.6380474678025,
+        "y": 4004.175620918403
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Handle Close"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 757.638198786195,
+        "y": 2176.1991817996545
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CloseHandle",
+        "Module": "api-ms-win-core-handle-l1-1-0"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": 757.6381934267137,
+        "y": 3090.18740135877
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CloseHandle",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": 757.6380474678025,
+        "y": 3394.850141212152
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtClose",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": 757.6380474678025,
+        "y": 3699.5128810652695
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtClose"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n7",
+      "fromId": "n10",
+      "toId": "n11",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "fromId": "n11",
+      "toId": "n12",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "fromId": "n12",
+      "toId": "n13",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "fromId": "n13",
+      "toId": "n9",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n11",
+      "fromId": "n8",
+      "toId": "n10",
+      "type": "",
+      "properties": {},
+      "style": {
+        "property-font-size": 30
+      }
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
