@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "n2",
+      "position": {
+        "x": 702.4612064408544,
+        "y": 5.320259788277326e-10
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "DuplicateTokenEx",
+        "Module": "advapi32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n21",
+      "position": {
+        "x": 702.4612064408544,
+        "y": 283.1394913032527
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "DuplicateTokenEx",
+        "Module": "api-ms-win-security-base-l1-2-0"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n22",
+      "position": {
+        "x": 702.4612064408544,
+        "y": 587.8022311563861
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "DuplicateTokenEx",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n23",
+      "position": {
+        "x": 702.4612064408544,
+        "y": 1501.7904507157778
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtDuplicateToken",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n24",
+      "position": {
+        "x": 702.4612064408544,
+        "y": 1806.4531905689032
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtDuplicateToken"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n25",
+      "position": {
+        "x": 702.4612010460579,
+        "y": 2111.1159304220287
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Token Copy"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n19",
+      "fromId": "n2",
+      "toId": "n21",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "fromId": "n21",
+      "toId": "n22",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n21",
+      "fromId": "n22",
+      "toId": "n23",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n22",
+      "fromId": "n23",
+      "toId": "n24",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n23",
+      "fromId": "n24",
+      "toId": "n25",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
