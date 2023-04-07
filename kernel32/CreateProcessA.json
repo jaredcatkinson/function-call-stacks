@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "position": {
+        "x": 2327.1142578125,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateProcessA",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n52",
+      "position": {
+        "x": 2327.1142578125,
+        "y": 388.05354359412695
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateProcessA",
+        "Module": "api-ms-win-core-processthreads-l1-1-2"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n53",
+      "position": {
+        "x": 2327.1142578125,
+        "y": 690.7871384628543
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateProcessA",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n54",
+      "position": {
+        "x": 2327.1142616271973,
+        "y": 993.5207333315823
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateProcessInternalA",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n55",
+      "position": {
+        "x": 2327.1142578125,
+        "y": 1296.254328200309
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateProcessInternalW",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n56",
+      "position": {
+        "x": 2327.1142578125,
+        "y": 1901.7215179377638
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateUserProcess"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n57",
+      "position": {
+        "x": 2327.1142616271973,
+        "y": 2204.455112806491
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Process Create"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    },
+    {
+      "id": "n58",
+      "position": {
+        "x": 2327.1142616271973,
+        "y": 1598.9879230690358
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateUserProcess",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n31",
+      "fromId": "n52",
+      "toId": "n53",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n32",
+      "fromId": "n53",
+      "toId": "n54",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n33",
+      "fromId": "n54",
+      "toId": "n55",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n35",
+      "fromId": "n56",
+      "toId": "n57",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n36",
+      "fromId": "n1",
+      "toId": "n52",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n37",
+      "fromId": "n55",
+      "toId": "n58",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n38",
+      "fromId": "n58",
+      "toId": "n56",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
