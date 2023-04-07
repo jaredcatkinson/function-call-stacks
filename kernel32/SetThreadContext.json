@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "n15",
+      "position": {
+        "x": 5995.462236662991,
+        "y": 49.99999999999994
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SetThreadContext",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n29",
+      "position": {
+        "x": 5995.3004219001095,
+        "y": 388.0535435941271
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SetThreadContext",
+        "Module": "api-ms-win-core-processthreads-l1-1-2"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n32",
+      "position": {
+        "x": 5995.300449714985,
+        "y": 690.7871384628547
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SetThreadContext",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n34",
+      "position": {
+        "x": 5995.300560974486,
+        "y": 1598.987966242745
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtSetContextThread",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n37",
+      "position": {
+        "x": 5995.462236662991,
+        "y": 1901.7215179377638
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtSetContextThread"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n40",
+      "position": {
+        "x": 5995.462236662991,
+        "y": 2204.455112806491
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Thread Write"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n10",
+      "fromId": "n29",
+      "toId": "n32",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n12",
+      "fromId": "n32",
+      "toId": "n34",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "fromId": "n34",
+      "toId": "n37",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n18",
+      "fromId": "n37",
+      "toId": "n40",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n43",
+      "fromId": "n15",
+      "toId": "n29",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
