@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "id": "n16",
+      "position": {
+        "x": -707.4228560472905,
+        "y": 293.9011155776608
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "AdjustTokenPrivileges",
+        "Module": "api-ms-win-security-base-l1-2-0"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n17",
+      "position": {
+        "x": -707.4228560472905,
+        "y": 587.8022311555881
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "AdjustTokenPrivileges",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n18",
+      "position": {
+        "x": -707.4228560472905,
+        "y": 1505.6544490182075
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtAdjustPrivilegesToken",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n19",
+      "position": {
+        "x": -707.4228560472905,
+        "y": 1806.4531905681051
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtAdjustPrivilegesToken"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n20",
+      "position": {
+        "x": -707.4228560472905,
+        "y": 2111.1159304212306
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Token Set"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    },
+    {
+      "id": "n27",
+      "position": {
+        "x": -707.4228560472903,
+        "y": -1.0659874673863926e-9
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "AdjustTokenPrivileges",
+        "Module": "advapi32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n13",
+      "fromId": "n16",
+      "toId": "n17",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "fromId": "n17",
+      "toId": "n18",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "fromId": "n18",
+      "toId": "n19",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "fromId": "n19",
+      "toId": "n20",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n29",
+      "fromId": "n27",
+      "toId": "n16",
+      "type": "",
+      "properties": {},
+      "style": {
+        "property-font-size": 30,
+        "arrow-width": 5
+      }
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
