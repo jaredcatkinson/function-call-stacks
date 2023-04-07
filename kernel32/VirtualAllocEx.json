@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "n11",
+      "position": {
+        "x": 4128.8056640625,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "VirtualAllocEx",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n42",
+      "position": {
+        "x": 4128.8056640625,
+        "y": 388.0535435941272
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "VirtualAllocEx",
+        "Module": "api-ms-win-core-memory-l1-1-0"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n43",
+      "position": {
+        "x": 4128.8056640625,
+        "y": 690.787138462854
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "VirtualAllocEx",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n44",
+      "position": {
+        "x": 4128.805667877197,
+        "y": 993.5207333315811
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "VirtualAllocNuma",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n45",
+      "position": {
+        "x": 4128.8056640625,
+        "y": 1598.987923069037
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtAllocateVirtualMemory",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n46",
+      "position": {
+        "x": 4128.805660247803,
+        "y": 1901.7215179377638
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtAllocateVirtualMemory"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n47",
+      "position": {
+        "x": 4128.8056640625,
+        "y": 2204.455112806491
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Memory Allocate"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n22",
+      "fromId": "n42",
+      "toId": "n43",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n23",
+      "fromId": "n43",
+      "toId": "n44",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n24",
+      "fromId": "n44",
+      "toId": "n45",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n25",
+      "fromId": "n45",
+      "toId": "n46",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n26",
+      "fromId": "n46",
+      "toId": "n47",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n39",
+      "fromId": "n11",
+      "toId": "n42",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
