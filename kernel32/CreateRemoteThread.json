@@ -1,0 +1,235 @@
+{
+  "nodes": [
+    {
+      "id": "n32",
+      "position": {
+        "x": 3776.9041237176452,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateRemoteThread",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n33",
+      "position": {
+        "x": 3776.9041237176452,
+        "y": 363.5342415299347
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateRemoteThread",
+        "Module": "api-ms-win-core-processthreads-l1-1-0"
+      },
+      "style": {
+        "border-color": "#000000",
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n34",
+      "position": {
+        "x": 3776.9040429757233,
+        "y": 677.0684830598699
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateRemoteThread",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "border-color": "#000000",
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n35",
+      "position": {
+        "x": 3776.904204459567,
+        "y": 990.6027245898044
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateRemoteThreadEx",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "border-color": "#fb9e00",
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n36",
+      "position": {
+        "x": 3776.904204459567,
+        "y": 1310.7632155659167
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateThreadEx",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "border-color": "#000000",
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n37",
+      "position": {
+        "x": 3776.904204459567,
+        "y": 1630.9237065420289
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateThreadEx"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n38",
+      "position": {
+        "x": 3776.904204459567,
+        "y": 1951.084197518141
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Thread Create"
+      },
+      "style": {
+        "property-font-size": 30,
+        "radius": 80,
+        "border-color": "#68bc00",
+        "border-width": 10,
+        "outside-position": "bottom"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n34",
+      "fromId": "n33",
+      "toId": "n34",
+      "type": "",
+      "properties": {},
+      "style": {
+        "arrow-color": "#000000"
+      }
+    },
+    {
+      "id": "n35",
+      "fromId": "n34",
+      "toId": "n35",
+      "type": "",
+      "properties": {},
+      "style": {
+        "arrow-color": "#000000"
+      }
+    },
+    {
+      "id": "n36",
+      "fromId": "n35",
+      "toId": "n36",
+      "type": "",
+      "properties": {},
+      "style": {
+        "arrow-color": "#000000"
+      }
+    },
+    {
+      "id": "n37",
+      "fromId": "n36",
+      "toId": "n37",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n38",
+      "fromId": "n37",
+      "toId": "n38",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n39",
+      "fromId": "n32",
+      "toId": "n33",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
