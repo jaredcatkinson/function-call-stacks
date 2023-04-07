@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "n16",
+      "position": {
+        "x": 6470.961989585953,
+        "y": 49.99999999999994
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ResumeThread",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n27",
+      "position": {
+        "x": 6470.9620490304,
+        "y": 388.0535435941271
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ResumeThread",
+        "Module": "api-ms-win-core-processthreads-l1-1-2"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n28",
+      "position": {
+        "x": 6470.9620490304,
+        "y": 690.7871384628547
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ResumeThread",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n35",
+      "position": {
+        "x": 6470.962327179153,
+        "y": 1598.987966242745
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtResumeThread",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n38",
+      "position": {
+        "x": 6470.961989585953,
+        "y": 1901.7215179377638
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtResumeThread"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n41",
+      "position": {
+        "x": 6470.961989585953,
+        "y": 2204.455112806491
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Thread Resume"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n8",
+      "fromId": "n27",
+      "toId": "n28",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n13",
+      "fromId": "n28",
+      "toId": "n35",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "fromId": "n35",
+      "toId": "n38",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n19",
+      "fromId": "n38",
+      "toId": "n41",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n44",
+      "fromId": "n16",
+      "toId": "n27",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
