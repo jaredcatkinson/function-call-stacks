@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "n111",
+      "position": {
+        "x": 9215.580297296483,
+        "y": 5.599999999999994
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "VirtualProtectEx",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#D33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n112",
+      "position": {
+        "x": 9215.580318875669,
+        "y": 2160.055112806491
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Memory Protect"
+      },
+      "style": {
+        "border-color": "#68BC00",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "bottom"
+      }
+    },
+    {
+      "id": "n114",
+      "position": {
+        "x": 9215.580293481786,
+        "y": 343.6535435941272
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "VirtualProtectEx",
+        "Module": "api-ms-win-core-memory-l1-1-0"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n115",
+      "position": {
+        "x": 9215.580318875669,
+        "y": 646.387138462855
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "VirtualProtectEx",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n116",
+      "position": {
+        "x": 9215.580337667445,
+        "y": 1554.5879230690375
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtProtectVirtualMemory",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n117",
+      "position": {
+        "x": 9215.580293481786,
+        "y": 1857.321517937763
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtProtectVirtualMemory"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n116",
+      "fromId": "n114",
+      "toId": "n115",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n117",
+      "fromId": "n115",
+      "toId": "n116",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n118",
+      "fromId": "n116",
+      "toId": "n117",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n119",
+      "fromId": "n117",
+      "toId": "n112",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n120",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n111",
+      "toId": "n114"
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
