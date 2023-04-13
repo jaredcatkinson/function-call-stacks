@@ -1,0 +1,249 @@
+{
+  "nodes": [
+    {
+      "id": "n25",
+      "position": {
+        "x": -847.7608608122076,
+        "y": -4
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CopyFileA",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n26",
+      "position": {
+        "x": -847.7608608122076,
+        "y": 334.053543594127
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CopyFileExW",
+        "Module": "api-ms-win-core-file-l2-1-1"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n27",
+      "position": {
+        "x": -847.7608608122076,
+        "y": 636.7871384628542
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "BasepCopyFileExW",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n28",
+      "position": {
+        "x": -847.7608608122076,
+        "y": 939.5207333315814
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateFileW",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n29",
+      "position": {
+        "x": -847.7608608122076,
+        "y": 1242.2543282003085
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateFileInternal",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n30",
+      "position": {
+        "x": -847.7608608122076,
+        "y": 1544.9879230690358
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateFile",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n31",
+      "position": {
+        "x": -847.7608608122076,
+        "y": 1847.721517937763
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateFile"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n32",
+      "position": {
+        "x": -847.7608608122076,
+        "y": 2150.455112806491
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "File Create"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n21",
+      "fromId": "n25",
+      "toId": "n26",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n22",
+      "fromId": "n26",
+      "toId": "n27",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n23",
+      "fromId": "n27",
+      "toId": "n28",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n24",
+      "fromId": "n28",
+      "toId": "n29",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n25",
+      "fromId": "n29",
+      "toId": "n30",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n26",
+      "fromId": "n30",
+      "toId": "n31",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n27",
+      "fromId": "n31",
+      "toId": "n32",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
