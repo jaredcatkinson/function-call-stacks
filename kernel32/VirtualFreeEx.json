@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "n75",
+      "position": {
+        "x": 3879.320505093403,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "VirtualFreeEx",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n76",
+      "position": {
+        "x": 3879.320505093403,
+        "y": 349.00570059605366
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "VirtualFreeEx",
+        "Module": "api-ms-win-core-memory-l1-1-2"
+      }
+    },
+    {
+      "id": "n77",
+      "position": {
+        "x": 3879.3204846710787,
+        "y": 648.0114011921133
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "VirtualFreeEx",
+        "Module": "kernelbase.dll"
+      }
+    },
+    {
+      "id": "n78",
+      "position": {
+        "x": 3879.320505093403,
+        "y": 1242.8909707225346
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "NtFreeVirtualMemory",
+        "Module": "ntdll.dll"
+      }
+    },
+    {
+      "id": "n79",
+      "position": {
+        "x": 3879.320505093403,
+        "y": 1541.1137134031683
+      },
+      "caption": "Syscall",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "NtFreeVirtualMemory"
+      }
+    },
+    {
+      "id": "n80",
+      "position": {
+        "x": 3879.320505093403,
+        "y": 1839.3364560837988
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Memory Free"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n69",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n75",
+      "toId": "n76"
+    },
+    {
+      "id": "n70",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n76",
+      "toId": "n77"
+    },
+    {
+      "id": "n71",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n77",
+      "toId": "n78"
+    },
+    {
+      "id": "n72",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n78",
+      "toId": "n79"
+    },
+    {
+      "id": "n73",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n79",
+      "toId": "n80"
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
