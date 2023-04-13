@@ -1,0 +1,226 @@
+{
+  "nodes": [
+    {
+      "id": "n131",
+      "position": {
+        "x": 5217.126017633325,
+        "y": 5.599999999999994
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateProcessW",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n132",
+      "position": {
+        "x": 5217.126010003931,
+        "y": 343.6535435941272
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "CreateProcessW",
+        "Module": "api-ms-win-core-processthreads-l1-1-2"
+      }
+    },
+    {
+      "id": "n133",
+      "position": {
+        "x": 5217.126121263431,
+        "y": 646.3871384628551
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "CreateProcessW",
+        "Module": "kernelbase.dll"
+      }
+    },
+    {
+      "id": "n134",
+      "position": {
+        "x": 5217.126010003931,
+        "y": 949.1207333316648
+      },
+      "caption": "Function",
+      "style": {
+        "border-color": "#fb9e00",
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "CreateProcessInternalW",
+        "Module": "kernelbase.dll"
+      }
+    },
+    {
+      "id": "n135",
+      "position": {
+        "x": 5217.126010003931,
+        "y": 1251.8543713740173
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateUserProcess",
+        "Module": "ntdll.dll"
+      }
+    },
+    {
+      "id": "n136",
+      "position": {
+        "x": 5217.126121263431,
+        "y": 1554.5879230690362
+      },
+      "caption": "Syscall",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateUserProcess"
+      }
+    },
+    {
+      "id": "n137",
+      "position": {
+        "x": 5217.126010003931,
+        "y": 1857.3214747640548
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Process Create"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n131",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n131",
+      "toId": "n132"
+    },
+    {
+      "id": "n132",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n132",
+      "toId": "n133"
+    },
+    {
+      "id": "n133",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n133",
+      "toId": "n134"
+    },
+    {
+      "id": "n134",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n134",
+      "toId": "n135"
+    },
+    {
+      "id": "n135",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n135",
+      "toId": "n136"
+    },
+    {
+      "id": "n136",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n136",
+      "toId": "n137"
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
