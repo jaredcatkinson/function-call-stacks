@@ -1,4 +1,99 @@
 {
+  "nodes": [
+    {
+      "id": "n85",
+      "position": {
+        "x": -1285.971562139601,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "GetWindowThreadProcessId",
+        "Module": "user32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n86",
+      "position": {
+        "x": -1285.9715621396,
+        "y": 646.4454853612625
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtUserQueryWindow",
+        "Module": "win23u.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n87",
+      "position": {
+        "x": -1285.971562139601,
+        "y": 1541.1137134031683
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtUserQueryWindow"
+      },
+      "style": {}
+    },
+    {
+      "id": "n88",
+      "position": {
+        "x": -1285.971562139601,
+        "y": 1839.336456083802
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Window Read"
+      },
+      "style": {
+        "border-color": "#68bc00",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n81",
+      "fromId": "n86",
+      "toId": "n87",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n82",
+      "fromId": "n87",
+      "toId": "n88",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n83",
+      "fromId": "n85",
+      "toId": "n86",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ],
   "style": {
     "font-family": "sans-serif",
     "background-color": "#ffffff",
@@ -51,95 +146,5 @@
     "property-color": "#000000",
     "property-font-size": 16,
     "property-font-weight": "normal"
-  },
-  "nodes": [
-    {
-      "id": "n0",
-      "position": {
-        "x": 75,
-        "y": 50.00000762939453
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "GetWindowThreadProcessId",
-        "Module": "user32.dll"
-      },
-      "style": {
-        "border-color": "#d33115",
-        "radius": 80,
-        "border-width": 10,
-        "property-font-size": 30,
-        "outside-position": "top"
-      }
-    },
-    {
-      "id": "n2",
-      "position": {
-        "x": 75.00000213248063,
-        "y": 318.80527540814796
-      },
-      "caption": "Function",
-      "style": {},
-      "labels": [],
-      "properties": {
-        "Name": "NtUserQueryWindow",
-        "Module": "win23u.dll"
-      }
-    },
-    {
-      "id": "n3",
-      "position": {
-        "x": 75.00000213248063,
-        "y": 639.1526415187712
-      },
-      "caption": "Syscall",
-      "style": {},
-      "labels": [],
-      "properties": {
-        "Name": "NtUserQueryWindow"
-      }
-    },
-    {
-      "id": "n4",
-      "position": {
-        "x": 75.00000213248063,
-        "y": 959.5000076293945
-      },
-      "caption": "Operation",
-      "style": {
-        "border-color": "#68BC00"
-      },
-      "labels": [],
-      "properties": {
-        "Name": "Window Read"
-      }
-    }
-  ],
-  "relationships": [
-    {
-      "id": "n2",
-      "type": "",
-      "style": {},
-      "properties": {},
-      "fromId": "n2",
-      "toId": "n3"
-    },
-    {
-      "id": "n3",
-      "type": "",
-      "style": {},
-      "properties": {},
-      "fromId": "n3",
-      "toId": "n4"
-    },
-    {
-      "id": "n4",
-      "type": "",
-      "style": {},
-      "properties": {},
-      "fromId": "n0",
-      "toId": "n2"
-    }
-  ]
+  }
 }
