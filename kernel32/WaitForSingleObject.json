@@ -1,0 +1,225 @@
+{
+  "nodes": [
+    {
+      "id": "n32",
+      "position": {
+        "x": 2760.0096274858442,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "WaitForSingleObject",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n53",
+      "position": {
+        "x": 2760.0096274858442,
+        "y": 363.5342415299347
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "WaitForSingleObject",
+        "Module": "api-ms-win-core-synch-l1-2-0"
+      }
+    },
+    {
+      "id": "n54",
+      "position": {
+        "x": 2760.0096274858442,
+        "y": 670.4422336137025
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "WaitForSingleObject",
+        "Module": "kernelbase.dll"
+      }
+    },
+    {
+      "id": "n55",
+      "position": {
+        "x": 2760.009788969688,
+        "y": 977.3502256974277
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "WaitForSingleObjectEx",
+        "Module": "kernelbase.dll"
+      }
+    },
+    {
+      "id": "n56",
+      "position": {
+        "x": 2760.0096274858442,
+        "y": 1284.2582177813229
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "NtWaitForSingleObject",
+        "Module": "ntdll.dll"
+      }
+    },
+    {
+      "id": "n57",
+      "position": {
+        "x": 2760.009174837011,
+        "y": 1591.166209864927
+      },
+      "caption": "Syscall",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "NtWaitForSingleObject"
+      }
+    },
+    {
+      "id": "n58",
+      "position": {
+        "x": 2760.009174837011,
+        "y": 1898.074201948531
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Object Wait"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n56",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n32",
+      "toId": "n53"
+    },
+    {
+      "id": "n57",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n53",
+      "toId": "n54"
+    },
+    {
+      "id": "n58",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n54",
+      "toId": "n55"
+    },
+    {
+      "id": "n59",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n55",
+      "toId": "n56"
+    },
+    {
+      "id": "n60",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n56",
+      "toId": "n57"
+    },
+    {
+      "id": "n63",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n57",
+      "toId": "n58"
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
