@@ -1,204 +1,4 @@
 {
-  "nodes": [
-    {
-      "id": "n30",
-      "position": {
-        "x": -1647.3455607761894,
-        "y": 1.0640718148883012e-9
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "OpenProcessToken",
-        "Module": "advapi32.dll"
-      },
-      "style": {
-        "border-color": "#d33115",
-        "border-width": 10,
-        "radius": 80,
-        "property-font-size": 30,
-        "outside-position": "top"
-      }
-    },
-    {
-      "id": "n31",
-      "position": {
-        "x": -1647.3454094577978,
-        "y": 293.90111557845887
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "OpenProcessToken",
-        "Module": "api-ms-win-core-processthreads-l1-1-2"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n32",
-      "position": {
-        "x": -1647.3454094577978,
-        "y": 587.8022311563861
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "OpenProcessToken",
-        "Module": "kernel32.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n33",
-      "position": {
-        "x": -1647.3454626721154,
-        "y": 881.7033467340481
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "OpenProcessToken",
-        "Module": "api-ms-win-core-processthreads-l1-1-2"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n34",
-      "position": {
-        "x": -1647.3455158864326,
-        "y": 1175.6044621750002
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "OpenProcessToken",
-        "Module": "kernelbase.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n35",
-      "position": {
-        "x": -1647.3455158864326,
-        "y": 1501.7904507157778
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "NtOpenProcessToken",
-        "Module": "ntdll.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n36",
-      "position": {
-        "x": -1647.3453037418062,
-        "y": 2111.1159304220287
-      },
-      "caption": "Operation",
-      "labels": [],
-      "properties": {
-        "Name": "Token Open"
-      },
-      "style": {
-        "outside-position": "bottom",
-        "radius": 80,
-        "border-width": 10,
-        "border-color": "#68bc00",
-        "property-font-size": 30
-      }
-    },
-    {
-      "id": "n37",
-      "position": {
-        "x": -1647.3454094577978,
-        "y": 1806.4531905689032
-      },
-      "caption": "Syscall",
-      "labels": [],
-      "properties": {
-        "Name": "NtOpenProcessToken"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    }
-  ],
-  "relationships": [
-    {
-      "id": "n30",
-      "fromId": "n31",
-      "toId": "n32",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n31",
-      "fromId": "n32",
-      "toId": "n33",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n32",
-      "fromId": "n33",
-      "toId": "n34",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n33",
-      "fromId": "n34",
-      "toId": "n35",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n34",
-      "fromId": "n35",
-      "toId": "n37",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n35",
-      "fromId": "n37",
-      "toId": "n36",
-      "type": "",
-      "properties": {},
-      "style": {
-        "arrow-width": 5,
-        "arrow-color": "#000000"
-      }
-    },
-    {
-      "id": "n36",
-      "fromId": "n30",
-      "toId": "n31",
-      "type": "",
-      "properties": {},
-      "style": {
-        "property-font-size": 30,
-        "arrow-width": 5
-      }
-    }
-  ],
   "style": {
     "font-family": "sans-serif",
     "background-color": "#ffffff",
@@ -251,5 +51,205 @@
     "property-color": "#000000",
     "property-font-size": 16,
     "property-font-weight": "normal"
-  }
+  },
+  "nodes": [
+    {
+      "id": "n6",
+      "position": {
+        "x": 567.9261674297886,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "OpenProcessToken",
+        "Module": "advapi32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": 567.9261674297886,
+        "y": 348.2227426806714
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "OpenProcessToken",
+        "Module": "api-ms-win-core-processthreads-l1-1-2"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 567.9259547625544,
+        "y": 646.445485361267
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "OpenProcessToken",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 567.9262123195454,
+        "y": 944.6682280418271
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "OpenProcessToken",
+        "Module": "api-ms-win-core-processthreads-l1-1-2"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 567.9262123195454,
+        "y": 1242.8909707223872
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "OpenProcessToken",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": 567.9262126037692,
+        "y": 1541.1137134029473
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtOpenProcessToken",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": 567.9256969386828,
+        "y": 2137.5591987638445
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Token Open"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": 567.9259547625544,
+        "y": 1839.336456083396
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtOpenProcessToken"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n5",
+      "fromId": "n7",
+      "toId": "n8",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n6",
+      "fromId": "n8",
+      "toId": "n9",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n7",
+      "fromId": "n9",
+      "toId": "n10",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "fromId": "n10",
+      "toId": "n11",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "fromId": "n11",
+      "toId": "n13",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n10",
+      "fromId": "n13",
+      "toId": "n12",
+      "type": "",
+      "properties": {},
+      "style": {
+        "arrow-width": 5,
+        "arrow-color": "#000000"
+      }
+    },
+    {
+      "id": "n11",
+      "fromId": "n6",
+      "toId": "n7",
+      "type": "",
+      "properties": {},
+      "style": {
+        "property-font-size": 30,
+        "arrow-width": 5
+      }
+    }
+  ]
 }
