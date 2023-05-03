@@ -1,201 +1,4 @@
 {
-  "nodes": [
-    {
-      "id": "n0",
-      "position": {
-        "x": 75.000151318392,
-        "y": 1877.976439119021
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "SetThreadToken",
-        "Module": "advapi32.dll"
-      },
-      "style": {
-        "radius": 80,
-        "border-width": 10,
-        "border-color": "#d33115",
-        "caption-font-size": 58,
-        "property-font-size": 30,
-        "outside-position": "top"
-      }
-    },
-    {
-      "id": "n1",
-      "position": {
-        "x": 75.000151318392,
-        "y": 2176.1991817996545
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "SetThreadToken",
-        "Module": "api-ms-win-core-processthreads-l1-1-2"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n2",
-      "position": {
-        "x": 75.000151318392,
-        "y": 2474.421924480288
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "SetThreadToken",
-        "Module": "kernel32.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n3",
-      "position": {
-        "x": 75.000151318392,
-        "y": 2772.644667160922
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "SetThreadToken",
-        "Module": "api-ms-win-core-processthreads-l1-1-2"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n4",
-      "position": {
-        "x": 75.00004488975674,
-        "y": 3086.3234030555427
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "SetThreadToken",
-        "Module": "kernelbase.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n5",
-      "position": {
-        "x": 75,
-        "y": 3390.9861429086573
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "NtSetInformationThread",
-        "Module": "ntdll.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n6",
-      "position": {
-        "x": 75,
-        "y": 3695.6488827617736
-      },
-      "caption": "Syscall",
-      "labels": [],
-      "properties": {
-        "Name": "NtSetInformationThread"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n7",
-      "position": {
-        "x": 75,
-        "y": 4000.311622614891
-      },
-      "caption": "Operation",
-      "labels": [],
-      "properties": {
-        "Name": "Thread Set"
-      },
-      "style": {
-        "outside-position": "bottom",
-        "radius": 80,
-        "border-width": 10,
-        "border-color": "#68bc00",
-        "property-font-size": 30
-      }
-    }
-  ],
-  "relationships": [
-    {
-      "id": "n0",
-      "fromId": "n0",
-      "toId": "n1",
-      "type": "",
-      "properties": {},
-      "style": {
-        "property-font-size": 30
-      }
-    },
-    {
-      "id": "n1",
-      "fromId": "n1",
-      "toId": "n2",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n2",
-      "fromId": "n2",
-      "toId": "n3",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n3",
-      "fromId": "n3",
-      "toId": "n4",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n4",
-      "fromId": "n4",
-      "toId": "n5",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n5",
-      "fromId": "n5",
-      "toId": "n6",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n6",
-      "fromId": "n6",
-      "toId": "n7",
-      "type": "",
-      "properties": {},
-      "style": {}
-    }
-  ],
   "style": {
     "font-family": "sans-serif",
     "background-color": "#ffffff",
@@ -248,5 +51,202 @@
     "property-color": "#000000",
     "property-font-size": 16,
     "property-font-weight": "normal"
-  }
+  },
+  "nodes": [
+    {
+      "id": "n21",
+      "position": {
+        "x": 1553.7785022893659,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SetThreadToken",
+        "Module": "advapi32.dll"
+      },
+      "style": {
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#d33115",
+        "caption-font-size": 58,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n22",
+      "position": {
+        "x": 1553.7783509709739,
+        "y": 348.2227426806714
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SetThreadToken",
+        "Module": "api-ms-win-core-processthreads-l1-1-2"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n23",
+      "position": {
+        "x": 1553.7785022893659,
+        "y": 646.445485361267
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SetThreadToken",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n24",
+      "position": {
+        "x": 1553.778652849899,
+        "y": 944.6682280418624
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SetThreadToken",
+        "Module": "api-ms-win-core-processthreads-l1-1-2"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n25",
+      "position": {
+        "x": 1553.7782105905637,
+        "y": 1242.8909707221685
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SetThreadToken",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n26",
+      "position": {
+        "x": 1553.7783509709739,
+        "y": 1541.1137134023436
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtSetInformationThread",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n27",
+      "position": {
+        "x": 1553.7782105905637,
+        "y": 1839.3364560826508
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtSetInformationThread"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n28",
+      "position": {
+        "x": 1553.7783509709739,
+        "y": 2137.5591987629577
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Thread Set"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n18",
+      "fromId": "n21",
+      "toId": "n22",
+      "type": "",
+      "properties": {},
+      "style": {
+        "property-font-size": 30
+      }
+    },
+    {
+      "id": "n19",
+      "fromId": "n22",
+      "toId": "n23",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "fromId": "n23",
+      "toId": "n24",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n21",
+      "fromId": "n24",
+      "toId": "n25",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n22",
+      "fromId": "n25",
+      "toId": "n26",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n23",
+      "fromId": "n26",
+      "toId": "n27",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n24",
+      "fromId": "n27",
+      "toId": "n28",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ]
 }
