@@ -1,320 +1,4 @@
 {
-  "nodes": [
-    {
-      "id": "n2",
-      "position": {
-        "x": 1599.253624177085,
-        "y": -0.49181253430606375
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "ImpersonateLoggedOnUser",
-        "Module": "advapi32.dll"
-      },
-      "style": {
-        "border-color": "#d33115",
-        "border-width": 10,
-        "radius": 80,
-        "property-font-size": 30,
-        "outside-position": "top"
-      }
-    },
-    {
-      "id": "n20",
-      "position": {
-        "x": 1599.253624177085,
-        "y": 354.18413326431437
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "ImpersonateLoggedOnUser",
-        "Module": "api-ms-win-security-base-l1-2-0.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n21",
-      "position": {
-        "x": 1599.253624177085,
-        "y": 650.4300184035556
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "ImpersonateLoggedOnUser",
-        "Module": "kernelbase.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n22",
-      "position": {
-        "x": 1066.1690827847233,
-        "y": 1573.8186948581579
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "NtQueryInformationToken",
-        "Module": "ntdll.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n23",
-      "position": {
-        "x": 1599.253624177085,
-        "y": 1572.8350926768835
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "NtDuplicateToken",
-        "Module": "ntdll.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n24",
-      "position": {
-        "x": 2132.338165569447,
-        "y": 1572.343287771659
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "NtSetInformationThread",
-        "Module": "ntdll.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n25",
-      "position": {
-        "x": 1066.1690827847233,
-        "y": 1878.4814347112388
-      },
-      "caption": "Syscall",
-      "labels": [],
-      "properties": {
-        "Name": "NtQueryInformationToken"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n26",
-      "position": {
-        "x": 1599.253624177085,
-        "y": 1877.4978325299644
-      },
-      "caption": "Syscall",
-      "labels": [],
-      "properties": {
-        "Name": "NtDuplicateToken"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n27",
-      "position": {
-        "x": 2132.338165569446,
-        "y": 1877.0060276247405
-      },
-      "caption": "Syscall",
-      "labels": [],
-      "properties": {
-        "Name": "NtSetInformationThread"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n28",
-      "position": {
-        "x": 1066.1690827847233,
-        "y": 2182.6523772882697
-      },
-      "caption": "Operation",
-      "labels": [],
-      "properties": {
-        "Name": "Token Query"
-      },
-      "style": {
-        "border-width": 10,
-        "border-color": "#68bc00",
-        "radius": 80,
-        "property-font-size": 30,
-        "outside-position": "bottom"
-      }
-    },
-    {
-      "id": "n29",
-      "position": {
-        "x": 1599.253624177085,
-        "y": 2182.1605723830457
-      },
-      "caption": "Operation",
-      "labels": [],
-      "properties": {
-        "Name": "Token Copy"
-      },
-      "style": {
-        "border-width": 10,
-        "border-color": "#68bc00",
-        "radius": 80,
-        "property-font-size": 30,
-        "outside-position": "bottom"
-      }
-    },
-    {
-      "id": "n30",
-      "position": {
-        "x": 2132.338165569447,
-        "y": 2181.6687674778213
-      },
-      "caption": "Operation",
-      "labels": [],
-      "properties": {
-        "Name": "Thread Set"
-      },
-      "style": {
-        "border-width": 10,
-        "border-color": "#68bc00",
-        "radius": 80,
-        "property-font-size": 30,
-        "outside-position": "bottom"
-      }
-    }
-  ],
-  "relationships": [
-    {
-      "id": "n18",
-      "fromId": "n20",
-      "toId": "n21",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n19",
-      "fromId": "n21",
-      "toId": "n22",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n20",
-      "fromId": "n21",
-      "toId": "n23",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n21",
-      "fromId": "n21",
-      "toId": "n24",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n22",
-      "fromId": "n22",
-      "toId": "n25",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n23",
-      "fromId": "n23",
-      "toId": "n26",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n24",
-      "fromId": "n24",
-      "toId": "n27",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n25",
-      "fromId": "n25",
-      "toId": "n28",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n26",
-      "fromId": "n26",
-      "toId": "n29",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n27",
-      "fromId": "n27",
-      "toId": "n30",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n28",
-      "fromId": "n28",
-      "toId": "n29",
-      "type": "",
-      "properties": {},
-      "style": {
-        "arrow-width": 10,
-        "arrow-color": "#68bc00"
-      }
-    },
-    {
-      "id": "n29",
-      "fromId": "n29",
-      "toId": "n30",
-      "type": "",
-      "properties": {},
-      "style": {
-        "arrow-width": 10,
-        "arrow-color": "#68bc00"
-      }
-    },
-    {
-      "id": "n30",
-      "fromId": "n2",
-      "toId": "n20",
-      "type": "",
-      "properties": {},
-      "style": {}
-    }
-  ],
   "style": {
     "font-family": "sans-serif",
     "background-color": "#ffffff",
@@ -367,5 +51,405 @@
     "property-color": "#000000",
     "property-font-size": 16,
     "property-font-weight": "normal"
-  }
+  },
+  "nodes": [
+    {
+      "id": "n29",
+      "position": {
+        "x": 2548.0083963134466,
+        "y": 49.99999999998499
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ImpersonateLoggedOnUser",
+        "Module": "advapi32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n30",
+      "position": {
+        "x": 2554.368694269425,
+        "y": 348.2227426806714
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ImpersonateLoggedOnUser",
+        "Module": "api-ms-win-security-base-l1-2-0.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n31",
+      "position": {
+        "x": 2573.4495881373523,
+        "y": 1242.8909707223888
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ImpersonateLoggedOnUser",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n32",
+      "position": {
+        "x": 1918.3075988475518,
+        "y": 1540.1300953112718
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtQueryInformationToken",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n33",
+      "position": {
+        "x": 2347.9818674659978,
+        "y": 1538.169785642738
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtDuplicateToken",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n34",
+      "position": {
+        "x": 2796.737509661364,
+        "y": 1540.1301035910087
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtSetInformationThread",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n35",
+      "position": {
+        "x": 1924.667896803541,
+        "y": 1838.3528379924655
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtQueryInformationToken"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n36",
+      "position": {
+        "x": 2354.3422264293936,
+        "y": 1836.3925270228028
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtDuplicateToken"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n37",
+      "position": {
+        "x": 2796.737524920153,
+        "y": 1836.3925270228028
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtSetInformationThread"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n38",
+      "position": {
+        "x": 1924.6675695992305,
+        "y": 2136.5755876522703
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Token Query"
+      },
+      "style": {
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "bottom"
+      }
+    },
+    {
+      "id": "n39",
+      "position": {
+        "x": 2360.702554889086,
+        "y": 2134.6152690534336
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Token Copy"
+      },
+      "style": {
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "bottom"
+      }
+    },
+    {
+      "id": "n40",
+      "position": {
+        "x": 2796.7551665123256,
+        "y": 2136.5755876522703
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Thread Set"
+      },
+      "style": {
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "bottom"
+      }
+    },
+    {
+      "id": "n41",
+      "position": {
+        "x": 3228.591573670621,
+        "y": 1540.1301035910087
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "NtClose",
+        "Module": "ntdll.dll"
+      }
+    },
+    {
+      "id": "n42",
+      "position": {
+        "x": 3228.591573670621,
+        "y": 1838.3528379924655
+      },
+      "caption": "Syscall",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "NtClose"
+      }
+    },
+    {
+      "id": "n43",
+      "position": {
+        "x": 3228.591573670621,
+        "y": 2134.6152690534336
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Handle Close"
+      },
+      "style": {
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "bottom"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n25",
+      "fromId": "n30",
+      "toId": "n31",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n26",
+      "fromId": "n31",
+      "toId": "n32",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n27",
+      "fromId": "n31",
+      "toId": "n33",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n28",
+      "fromId": "n31",
+      "toId": "n34",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n29",
+      "fromId": "n32",
+      "toId": "n35",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n30",
+      "fromId": "n33",
+      "toId": "n36",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n31",
+      "fromId": "n34",
+      "toId": "n37",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n32",
+      "fromId": "n35",
+      "toId": "n38",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n33",
+      "fromId": "n36",
+      "toId": "n39",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n34",
+      "fromId": "n37",
+      "toId": "n40",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n35",
+      "fromId": "n38",
+      "toId": "n39",
+      "type": "",
+      "properties": {},
+      "style": {
+        "arrow-width": 10,
+        "arrow-color": "#000000"
+      }
+    },
+    {
+      "id": "n36",
+      "fromId": "n39",
+      "toId": "n40",
+      "type": "",
+      "properties": {},
+      "style": {
+        "arrow-width": 10,
+        "arrow-color": "#000000"
+      }
+    },
+    {
+      "id": "n37",
+      "fromId": "n29",
+      "toId": "n30",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n38",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n31",
+      "toId": "n41"
+    },
+    {
+      "id": "n39",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n41",
+      "toId": "n42"
+    },
+    {
+      "id": "n40",
+      "type": "",
+      "style": {
+        "arrow-width": 10
+      },
+      "properties": {},
+      "fromId": "n40",
+      "toId": "n43"
+    },
+    {
+      "id": "n41",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n42",
+      "toId": "n43"
+    }
+  ]
 }
