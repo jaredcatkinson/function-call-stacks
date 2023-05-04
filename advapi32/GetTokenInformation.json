@@ -1,0 +1,202 @@
+{
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n31",
+      "position": {
+        "x": 1037.5212377869505,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "GetTokenInformation",
+        "Module": "advapi32.dll"
+      },
+      "style": {
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#d33115",
+        "caption-font-size": 58,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n32",
+      "position": {
+        "x": 1037.5212377869505,
+        "y": 348.2227426806714
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "GetTokenInformation",
+        "Module": "api-ms-win-security-base-l1-2-0"
+      }
+    },
+    {
+      "id": "n33",
+      "position": {
+        "x": 1037.5212377869505,
+        "y": 1242.8909707221685
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "GetTokenInformation",
+        "Module": "kernelbase.dll"
+      }
+    },
+    {
+      "id": "n34",
+      "position": {
+        "x": 1037.5212377869505,
+        "y": 1541.1137134023436
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "NtQueryTokenInformation",
+        "Module": "ntdll.dll"
+      }
+    },
+    {
+      "id": "n35",
+      "position": {
+        "x": 1037.5212377869505,
+        "y": 1839.3364560825187
+      },
+      "caption": "Syscall",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "NtQueryTokenInformation"
+      }
+    },
+    {
+      "id": "n38",
+      "position": {
+        "x": 1037.5212377869505,
+        "y": 2137.5591987629577
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Token Query"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n25",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n31",
+      "toId": "n32"
+    },
+    {
+      "id": "n26",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n32",
+      "toId": "n33"
+    },
+    {
+      "id": "n27",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n33",
+      "toId": "n34"
+    },
+    {
+      "id": "n28",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n34",
+      "toId": "n35"
+    },
+    {
+      "id": "n31",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n35",
+      "toId": "n38"
+    }
+  ]
+}
