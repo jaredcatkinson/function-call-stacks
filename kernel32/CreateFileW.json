@@ -1,175 +1,4 @@
 {
-  "nodes": [
-    {
-      "id": "n84",
-      "position": {
-        "x": 4597.890533949892,
-        "y": -12.557971509224899
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "CreateFileW",
-        "Module": "kernel32.dll"
-      },
-      "style": {
-        "border-color": "#d33115",
-        "radius": 80,
-        "border-width": 10,
-        "property-font-size": 30,
-        "outside-position": "top"
-      }
-    },
-    {
-      "id": "n110",
-      "position": {
-        "x": 4597.890541579287,
-        "y": 285.6647711714086
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "CreateFileW",
-        "Module": "api-ms-win-core-file-l1-2-1"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n111",
-      "position": {
-        "x": 4597.890541579287,
-        "y": 583.8875138520423
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "CreateFileW",
-        "Module": "kernelbase.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n112",
-      "position": {
-        "x": 4597.890541579287,
-        "y": 939.9273129185149
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "CreateFileInternal",
-        "Module": "kernelbase.dll"
-      },
-      "style": {
-        "outside-position": "left",
-        "border-color": "#fb9e00"
-      }
-    },
-    {
-      "id": "n125",
-      "position": {
-        "x": 4597.890541579287,
-        "y": 1905.2925916912384
-      },
-      "caption": "Operation",
-      "labels": [],
-      "properties": {
-        "Name": "File Open"
-      },
-      "style": {
-        "outside-position": "bottom",
-        "radius": 80,
-        "border-width": 10,
-        "border-color": "#68bc00",
-        "property-font-size": 30
-      }
-    },
-    {
-      "id": "n127",
-      "position": {
-        "x": 4597.890533949892,
-        "y": 1295.9671119849875
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "NtCreateFile",
-        "Module": "ntdll.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n128",
-      "position": {
-        "x": 4597.890541579287,
-        "y": 1600.6298518381052
-      },
-      "caption": "Syscall",
-      "labels": [],
-      "properties": {
-        "Name": "NtCreateFile"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    }
-  ],
-  "relationships": [
-    {
-      "id": "n121",
-      "fromId": "n84",
-      "toId": "n110",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n122",
-      "fromId": "n110",
-      "toId": "n111",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n123",
-      "fromId": "n111",
-      "toId": "n112",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n144",
-      "fromId": "n112",
-      "toId": "n127",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n145",
-      "fromId": "n127",
-      "toId": "n128",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n146",
-      "fromId": "n128",
-      "toId": "n125",
-      "type": "",
-      "properties": {},
-      "style": {}
-    }
-  ],
   "style": {
     "font-family": "sans-serif",
     "background-color": "#ffffff",
@@ -222,5 +51,176 @@
     "property-color": "#000000",
     "property-font-size": 16,
     "property-font-weight": "normal"
-  }
+  },
+  "nodes": [
+    {
+      "id": "n15",
+      "position": {
+        "x": 370.7207580991818,
+        "y": -610
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateFileW",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n16",
+      "position": {
+        "x": 370.7207580991818,
+        "y": -311.7772573188575
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateFileW",
+        "Module": "api-ms-win-core-file-l1-2-1"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n17",
+      "position": {
+        "x": 370.7207701623137,
+        "y": -13.554514637715016
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateFileW",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n18",
+      "position": {
+        "x": 370.7207701623137,
+        "y": 284.6682280434277
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateFileInternal",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left",
+        "border-color": "#fb9e00"
+      }
+    },
+    {
+      "id": "n19",
+      "position": {
+        "x": 370.7207580991818,
+        "y": 1477.5591987623568
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "File Open"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    },
+    {
+      "id": "n20",
+      "position": {
+        "x": 370.7207580991818,
+        "y": 881.1137134029475
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateFile",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n21",
+      "position": {
+        "x": 370.72076572857634,
+        "y": 1179.3364560826521
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateFile"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n13",
+      "fromId": "n15",
+      "toId": "n16",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n14",
+      "fromId": "n16",
+      "toId": "n17",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n15",
+      "fromId": "n17",
+      "toId": "n18",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n16",
+      "fromId": "n18",
+      "toId": "n20",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n17",
+      "fromId": "n20",
+      "toId": "n21",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n18",
+      "fromId": "n21",
+      "toId": "n19",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ]
 }
