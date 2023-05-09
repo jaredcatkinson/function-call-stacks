@@ -1,150 +1,4 @@
 {
-  "nodes": [
-    {
-      "id": "n81",
-      "position": {
-        "x": 5186.789793861646,
-        "y": -12.557971509224725
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "ReadProcessMemory",
-        "Module": "kernel32.dll"
-      },
-      "style": {
-        "border-color": "#d33115",
-        "radius": 80,
-        "border-width": 10,
-        "property-font-size": 30,
-        "outside-position": "top"
-      }
-    },
-    {
-      "id": "n104",
-      "position": {
-        "x": 5186.789801491041,
-        "y": 285.6647711714087
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "ReadProcessMemory",
-        "Module": "api-ms-win-core-memory-l1-1-2"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n105",
-      "position": {
-        "x": 5186.789801491041,
-        "y": 583.8875138520422
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "ReadProcessMemory",
-        "Module": "kernelbase.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n106",
-      "position": {
-        "x": 5186.789793861646,
-        "y": 1295.9671119849877
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "NtReadVirtualMemory",
-        "Module": "ntdll.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n107",
-      "position": {
-        "x": 5186.789793861646,
-        "y": 1594.848125219623
-      },
-      "caption": "Syscall",
-      "labels": [],
-      "properties": {
-        "Name": "NtReadVirtualMemory"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n108",
-      "position": {
-        "x": 5186.789793861646,
-        "y": 1905.2925916912395
-      },
-      "caption": "Operation",
-      "labels": [],
-      "properties": {
-        "Name": "Process Read"
-      },
-      "style": {
-        "outside-position": "bottom",
-        "radius": 80,
-        "border-width": 10,
-        "border-color": "#68bc00",
-        "property-font-size": 30
-      }
-    }
-  ],
-  "relationships": [
-    {
-      "id": "n113",
-      "fromId": "n104",
-      "toId": "n105",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n114",
-      "fromId": "n105",
-      "toId": "n106",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n115",
-      "fromId": "n106",
-      "toId": "n107",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n116",
-      "fromId": "n107",
-      "toId": "n108",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n117",
-      "fromId": "n81",
-      "toId": "n104",
-      "type": "",
-      "properties": {},
-      "style": {}
-    }
-  ],
   "style": {
     "font-family": "sans-serif",
     "background-color": "#ffffff",
@@ -197,5 +51,151 @@
     "property-color": "#000000",
     "property-font-size": 16,
     "property-font-weight": "normal"
-  }
+  },
+  "nodes": [
+    {
+      "id": "n6",
+      "position": {
+        "x": -354.04146832103186,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ReadProcessMemory",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": -354.04146832103186,
+        "y": 348.2227426806335
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ReadProcessMemory",
+        "Module": "api-ms-win-core-memory-l1-1-2"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": -354.04094606961047,
+        "y": 1242.8909707223872
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ReadProcessMemory",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": -354.04146832103186,
+        "y": 1541.1137134031683
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtReadVirtualMemory",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": -354.04146832103186,
+        "y": 1839.3364560844066
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtReadVirtualMemory"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": -354.04094606961047,
+        "y": 2137.559198765645
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Process Read"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n5",
+      "fromId": "n7",
+      "toId": "n8",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n6",
+      "fromId": "n8",
+      "toId": "n9",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n7",
+      "fromId": "n9",
+      "toId": "n10",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n8",
+      "fromId": "n10",
+      "toId": "n11",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n9",
+      "fromId": "n6",
+      "toId": "n7",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ]
 }
