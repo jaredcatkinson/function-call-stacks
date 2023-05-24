@@ -1,184 +1,4 @@
 {
-  "nodes": [
-    {
-      "id": "n32",
-      "position": {
-        "x": 3776.9041237176452,
-        "y": 50
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "CreateRemoteThread",
-        "Module": "kernel32.dll"
-      },
-      "style": {
-        "border-color": "#d33115",
-        "radius": 80,
-        "border-width": 10,
-        "property-font-size": 30,
-        "outside-position": "top"
-      }
-    },
-    {
-      "id": "n33",
-      "position": {
-        "x": 3776.9041237176452,
-        "y": 363.5342415299347
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "CreateRemoteThread",
-        "Module": "api-ms-win-core-processthreads-l1-1-0"
-      },
-      "style": {
-        "border-color": "#000000",
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n34",
-      "position": {
-        "x": 3776.9040429757233,
-        "y": 677.0684830598699
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "CreateRemoteThread",
-        "Module": "kernelbase.dll"
-      },
-      "style": {
-        "border-color": "#000000",
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n35",
-      "position": {
-        "x": 3776.904204459567,
-        "y": 990.6027245898044
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "CreateRemoteThreadEx",
-        "Module": "kernelbase.dll"
-      },
-      "style": {
-        "border-color": "#fb9e00",
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n36",
-      "position": {
-        "x": 3776.904204459567,
-        "y": 1310.7632155659167
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "NtCreateThreadEx",
-        "Module": "ntdll.dll"
-      },
-      "style": {
-        "border-color": "#000000",
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n37",
-      "position": {
-        "x": 3776.904204459567,
-        "y": 1630.9237065420289
-      },
-      "caption": "Syscall",
-      "labels": [],
-      "properties": {
-        "Name": "NtCreateThreadEx"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n38",
-      "position": {
-        "x": 3776.904204459567,
-        "y": 1951.084197518141
-      },
-      "caption": "Operation",
-      "labels": [],
-      "properties": {
-        "Name": "Thread Create"
-      },
-      "style": {
-        "property-font-size": 30,
-        "radius": 80,
-        "border-color": "#68bc00",
-        "border-width": 10,
-        "outside-position": "bottom"
-      }
-    }
-  ],
-  "relationships": [
-    {
-      "id": "n34",
-      "fromId": "n33",
-      "toId": "n34",
-      "type": "",
-      "properties": {},
-      "style": {
-        "arrow-color": "#000000"
-      }
-    },
-    {
-      "id": "n35",
-      "fromId": "n34",
-      "toId": "n35",
-      "type": "",
-      "properties": {},
-      "style": {
-        "arrow-color": "#000000"
-      }
-    },
-    {
-      "id": "n36",
-      "fromId": "n35",
-      "toId": "n36",
-      "type": "",
-      "properties": {},
-      "style": {
-        "arrow-color": "#000000"
-      }
-    },
-    {
-      "id": "n37",
-      "fromId": "n36",
-      "toId": "n37",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n38",
-      "fromId": "n37",
-      "toId": "n38",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n39",
-      "fromId": "n32",
-      "toId": "n33",
-      "type": "",
-      "properties": {},
-      "style": {}
-    }
-  ],
   "style": {
     "font-family": "sans-serif",
     "background-color": "#ffffff",
@@ -231,5 +51,185 @@
     "property-color": "#000000",
     "property-font-size": 16,
     "property-font-weight": "normal"
-  }
+  },
+  "nodes": [
+    {
+      "id": "n19",
+      "position": {
+        "x": 1883.474042370256,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateRemoteThread",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "radius": 80,
+        "border-width": 10,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n20",
+      "position": {
+        "x": 1883.476329460814,
+        "y": 370.39356923142714
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateRemoteThread",
+        "Module": "api-ms-win-core-processthreads-l1-1-0"
+      },
+      "style": {
+        "border-color": "#000000",
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n21",
+      "position": {
+        "x": 1883.478777956127,
+        "y": 944.668228098469
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateRemoteThread",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "border-color": "#000000",
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n22",
+      "position": {
+        "x": 1883.474042370256,
+        "y": 1242.890970741312
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CreateRemoteThreadEx",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "border-color": "#fb9e00",
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n23",
+      "position": {
+        "x": 1883.476410202736,
+        "y": 1541.113713412354
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateThreadEx",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "border-color": "#000000",
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n24",
+      "position": {
+        "x": 1883.478777956127,
+        "y": 1839.336456083396
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtCreateThreadEx"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n25",
+      "position": {
+        "x": 1883.478777956127,
+        "y": 2137.5591987638372
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Thread Create"
+      },
+      "style": {
+        "property-font-size": 30,
+        "radius": 80,
+        "border-color": "#68bc00",
+        "border-width": 10,
+        "outside-position": "bottom"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n16",
+      "fromId": "n20",
+      "toId": "n21",
+      "type": "",
+      "properties": {},
+      "style": {
+        "arrow-color": "#000000"
+      }
+    },
+    {
+      "id": "n17",
+      "fromId": "n21",
+      "toId": "n22",
+      "type": "",
+      "properties": {},
+      "style": {
+        "arrow-color": "#000000"
+      }
+    },
+    {
+      "id": "n18",
+      "fromId": "n22",
+      "toId": "n23",
+      "type": "",
+      "properties": {},
+      "style": {
+        "arrow-color": "#000000"
+      }
+    },
+    {
+      "id": "n19",
+      "fromId": "n23",
+      "toId": "n24",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n20",
+      "fromId": "n24",
+      "toId": "n25",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n21",
+      "fromId": "n19",
+      "toId": "n20",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ]
 }
