@@ -1,0 +1,201 @@
+{
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n25",
+      "position": {
+        "x": 3319.957182291008,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SuspendThread",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n26",
+      "position": {
+        "x": 3319.957182291008,
+        "y": 346.92262075311055
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SuspendThread",
+        "Module": "api-ms-win-core-processthreads-l1-1-2"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n27",
+      "position": {
+        "x": 3319.956922357586,
+        "y": 1836.7362122280088
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Thread Suspend"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    },
+    {
+      "id": "n28",
+      "position": {
+        "x": 3319.9569225047157,
+        "y": 942.0679841866835
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SuspendThread",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n29",
+      "position": {
+        "x": 3319.956922357586,
+        "y": 1240.290726867126
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtSuspendThread",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n30",
+      "position": {
+        "x": 3319.956922357586,
+        "y": 1538.5134695475672
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtSuspendThread"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n35",
+      "fromId": "n28",
+      "toId": "n29",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n36",
+      "fromId": "n29",
+      "toId": "n30",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n37",
+      "fromId": "n30",
+      "toId": "n27",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n38",
+      "fromId": "n26",
+      "toId": "n28",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n39",
+      "fromId": "n25",
+      "toId": "n26",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ]
+}
