@@ -1,150 +1,4 @@
 {
-  "nodes": [
-    {
-      "id": "n15",
-      "position": {
-        "x": 5995.462236662991,
-        "y": 49.99999999999994
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "SetThreadContext",
-        "Module": "kernel32.dll"
-      },
-      "style": {
-        "border-color": "#d33115",
-        "radius": 80,
-        "border-width": 10,
-        "property-font-size": 30,
-        "outside-position": "top"
-      }
-    },
-    {
-      "id": "n29",
-      "position": {
-        "x": 5995.3004219001095,
-        "y": 388.0535435941271
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "SetThreadContext",
-        "Module": "api-ms-win-core-processthreads-l1-1-2"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n32",
-      "position": {
-        "x": 5995.300449714985,
-        "y": 690.7871384628547
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "SetThreadContext",
-        "Module": "kernelbase.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n34",
-      "position": {
-        "x": 5995.300560974486,
-        "y": 1598.987966242745
-      },
-      "caption": "Function",
-      "labels": [],
-      "properties": {
-        "Name": "NtSetContextThread",
-        "Module": "ntdll.dll"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n37",
-      "position": {
-        "x": 5995.462236662991,
-        "y": 1901.7215179377638
-      },
-      "caption": "Syscall",
-      "labels": [],
-      "properties": {
-        "Name": "NtSetContextThread"
-      },
-      "style": {
-        "outside-position": "left"
-      }
-    },
-    {
-      "id": "n40",
-      "position": {
-        "x": 5995.462236662991,
-        "y": 2204.455112806491
-      },
-      "caption": "Operation",
-      "labels": [],
-      "properties": {
-        "Name": "Thread Write"
-      },
-      "style": {
-        "outside-position": "bottom",
-        "radius": 80,
-        "border-width": 10,
-        "border-color": "#68bc00",
-        "property-font-size": 30
-      }
-    }
-  ],
-  "relationships": [
-    {
-      "id": "n10",
-      "fromId": "n29",
-      "toId": "n32",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n12",
-      "fromId": "n32",
-      "toId": "n34",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n15",
-      "fromId": "n34",
-      "toId": "n37",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n18",
-      "fromId": "n37",
-      "toId": "n40",
-      "type": "",
-      "properties": {},
-      "style": {}
-    },
-    {
-      "id": "n43",
-      "fromId": "n15",
-      "toId": "n29",
-      "type": "",
-      "properties": {},
-      "style": {}
-    }
-  ],
   "style": {
     "font-family": "sans-serif",
     "background-color": "#ffffff",
@@ -197,5 +51,151 @@
     "property-color": "#000000",
     "property-font-size": 16,
     "property-font-weight": "normal"
-  }
+  },
+  "nodes": [
+    {
+      "id": "n37",
+      "position": {
+        "x": 4423.606494635365,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SetThreadContext",
+        "Module": "kernel32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n38",
+      "position": {
+        "x": 4423.606494635365,
+        "y": 346.92262075311066
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SetThreadContext",
+        "Module": "api-ms-win-core-processthreads-l1-1-2"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n39",
+      "position": {
+        "x": 4423.606234701943,
+        "y": 1836.7362122280092
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Thread Write"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    },
+    {
+      "id": "n40",
+      "position": {
+        "x": 4423.606234849073,
+        "y": 942.067984186683
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "SetThreadContext",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n41",
+      "position": {
+        "x": 4423.606234701943,
+        "y": 1240.2907268671265
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtSetContextThread",
+        "Module": "ntdll.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n42",
+      "position": {
+        "x": 4423.606234701943,
+        "y": 1538.5134695475676
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtSetContextThread"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n45",
+      "fromId": "n40",
+      "toId": "n41",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n46",
+      "fromId": "n41",
+      "toId": "n42",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n47",
+      "fromId": "n42",
+      "toId": "n39",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n48",
+      "fromId": "n38",
+      "toId": "n40",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n49",
+      "fromId": "n37",
+      "toId": "n38",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ]
 }
