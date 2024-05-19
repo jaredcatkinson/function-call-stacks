@@ -46,7 +46,8 @@
       "labels": [],
       "properties": {
         "Name": "NetrSessionEnum",
-        "Protocol": "MS-SRVS"
+        "Protocol": "MS-SRVS",
+        "Opnum": "12"
       },
       "style": {
         "outside-position": "left"
