@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "n67",
+      "position": {
+        "x": 4810.301075695851,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ChangeServiceConfig2W",
+        "Module": "advapi32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n70",
+      "position": {
+        "x": 4810.301075695851,
+        "y": 397.02665255706114
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ChangeServiceConfig2W",
+        "Module": "api-ms-win-service-management-l2-1-0"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n75",
+      "position": {
+        "x": 4810.301075695851,
+        "y": 744.0533051141223
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ChangeServiceConfig2W",
+        "Module": "sechost.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n80",
+      "position": {
+        "x": 4810.301075695851,
+        "y": 1091.0799576711834
+      },
+      "caption": "RPC Procedure",
+      "labels": [],
+      "properties": {
+        "Name": "RChangeServiceConfig2W",
+        "Protocol": "MS-SCMR",
+        "Interface": "367ABB81-9844-35F1-AD32-98F038001003",
+        "Opnum": "37"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n83",
+      "position": {
+        "x": 4810.301075695851,
+        "y": 1438.1066102282434
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Service Change Config"
+      },
+      "style": {
+        "border-color": "#68bc00",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "bottom"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n74",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n67",
+      "toId": "n70"
+    },
+    {
+      "id": "n80",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n70",
+      "toId": "n75"
+    },
+    {
+      "id": "n84",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n75",
+      "toId": "n80"
+    },
+    {
+      "id": "n92",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n80",
+      "toId": "n83"
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
