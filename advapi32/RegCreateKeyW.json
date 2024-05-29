@@ -1,0 +1,253 @@
+{
+  "nodes": [
+    {
+      "id": "n84",
+      "position": {
+        "x": 6683.2431719535225,
+        "y": -432.1275137925388
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "RegCreateKeyW",
+        "Module": "advapi32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n85",
+      "position": {
+        "x": 6683.2431719535225,
+        "y": -85.10086123547785
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "RegCreateKeyExW",
+        "Module": "api-ms-win-core-registry-l1-1-0"
+      }
+    },
+    {
+      "id": "n86",
+      "position": {
+        "x": 6683.2431719535225,
+        "y": 261.925791321583
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "RegCreateKeyExW",
+        "Module": "kernelbase.dll"
+      }
+    },
+    {
+      "id": "n87",
+      "position": {
+        "x": 6683.2431719535225,
+        "y": 608.9524438786439
+      },
+      "caption": "Function",
+      "style": {
+        "border-color": "#fb9e00",
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "RegCreateKeyExInternalW",
+        "Module": "kernelbase.dll"
+      }
+    },
+    {
+      "id": "n88",
+      "position": {
+        "x": 6683.2431719535225,
+        "y": 955.9790964357055
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "BaseRegCreateKey",
+        "Module": "ext-ms-win-advapi32-registry-l1-1-0"
+      }
+    },
+    {
+      "id": "n89",
+      "position": {
+        "x": 6683.2431719535225,
+        "y": 1303.0057489927672
+      },
+      "caption": "Function",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "BaseRegCreateKey",
+        "Module": "advapi32.dll"
+      }
+    },
+    {
+      "id": "n90",
+      "position": {
+        "x": 6683.2431719535225,
+        "y": 1650.0324015498288
+      },
+      "caption": "RPC Procedure",
+      "style": {
+        "outside-position": "left"
+      },
+      "labels": [],
+      "properties": {
+        "Name": "BaseRegCreateKey",
+        "Protocol": "MS-RRP",
+        "Interface": "338CD001-2244-31F1-AAAA-900038001003",
+        "Opnum": "6"
+      }
+    },
+    {
+      "id": "n91",
+      "position": {
+        "x": 6683.2431719535225,
+        "y": 1997.0590541068905
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Registry Key Create"
+      },
+      "style": {
+        "border-color": "#68bc00",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "bottom"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n96",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n84",
+      "toId": "n85"
+    },
+    {
+      "id": "n97",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n85",
+      "toId": "n86"
+    },
+    {
+      "id": "n98",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n86",
+      "toId": "n87"
+    },
+    {
+      "id": "n99",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n87",
+      "toId": "n88"
+    },
+    {
+      "id": "n100",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n88",
+      "toId": "n89"
+    },
+    {
+      "id": "n101",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n89",
+      "toId": "n90"
+    },
+    {
+      "id": "n102",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n90",
+      "toId": "n91"
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
