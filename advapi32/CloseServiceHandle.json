@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "n50",
+      "position": {
+        "x": 5325.790299146386,
+        "y": 1438.1066102282443
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "SC Manager Close"
+      },
+      "style": {
+        "border-color": "#68bc00",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "bottom"
+      }
+    },
+    {
+      "id": "n51",
+      "position": {
+        "x": 5325.790299146386,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CloseServiceHandle",
+        "Module": "advapi32.dll"
+      },
+      "style": {
+        "border-color": "#d33115",
+        "border-width": 10,
+        "radius": 80,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n71",
+      "position": {
+        "x": 5325.790299146386,
+        "y": 397.0266525570609
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CloseServiceHandle",
+        "Module": "api-ms-win-service-management-l1-1-0"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n76",
+      "position": {
+        "x": 5325.790299146386,
+        "y": 744.0533051141223
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "CloseServiceHandle",
+        "Module": "sechost.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n81",
+      "position": {
+        "x": 5325.790299146386,
+        "y": 1091.0799576711834
+      },
+      "caption": "RPC Procedure",
+      "labels": [],
+      "properties": {
+        "Name": "RCloseServiceHandle",
+        "Protocol": "MS-SCMR",
+        "Interface": "367ABB81-9844-35F1-AD32-98F038001003",
+        "Opnum": "0"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n75",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n51",
+      "toId": "n71"
+    },
+    {
+      "id": "n79",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n71",
+      "toId": "n76"
+    },
+    {
+      "id": "n85",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n76",
+      "toId": "n81"
+    },
+    {
+      "id": "n88",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n81",
+      "toId": "n50"
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
