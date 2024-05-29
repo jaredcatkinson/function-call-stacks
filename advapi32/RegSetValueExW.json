@@ -27,7 +27,9 @@
         "y": -85.10086123547785
       },
       "caption": "Function",
-      "style": {},
+      "style": {
+        "outside-position": "left"
+      },
       "labels": [],
       "properties": {
         "Name": "RegSetValueExW",
@@ -41,7 +43,9 @@
         "y": 261.9257913215831
       },
       "caption": "Function",
-      "style": {},
+      "style": {
+        "outside-position": "left"
+      },
       "labels": [],
       "properties": {
         "Name": "RegSetValueExW",
@@ -90,7 +94,8 @@
       "labels": [],
       "properties": {
         "Name": "BaseRegSetValue",
-        "Interface": "ms-rrp",
+        "Protocol": "MS-RRP",
+        "Interface": "338CD001-2244-31F1-AAAA-900038001003",
         "Opnum": "22"
       },
       "style": {
