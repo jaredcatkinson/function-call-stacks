@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "n28",
+      "position": {
+        "x": 4482.594261927706,
+        "y": 50
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ImpersonateNamedPipeClient",
+        "Module": "advapi32.dll"
+      },
+      "style": {
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#d33115",
+        "caption-font-size": 58,
+        "property-font-size": 30,
+        "outside-position": "top"
+      }
+    },
+    {
+      "id": "n29",
+      "position": {
+        "x": 4482.593807400824,
+        "y": 397.02665255706074
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ImpersonateNamedPipeClient",
+        "Module": "api-ms-win-core-namedpipe-l1-2-0"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n30",
+      "position": {
+        "x": 4482.594261927706,
+        "y": 744.0533051141225
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "ImpersonateNamedPipeClient",
+        "Module": "kernelbase.dll"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n31",
+      "position": {
+        "x": 4482.59380518242,
+        "y": 1091.0799576711838
+      },
+      "caption": "Function",
+      "labels": [],
+      "properties": {
+        "Name": "NtFsControlFile",
+        "Module": "ntdll.dll",
+        "FsControlCode": "0x11001C"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n32",
+      "position": {
+        "x": 4482.5933484371335,
+        "y": 1438.1066102282437
+      },
+      "caption": "Syscall",
+      "labels": [],
+      "properties": {
+        "Name": "NtFsControlFile"
+      },
+      "style": {
+        "outside-position": "left"
+      }
+    },
+    {
+      "id": "n33",
+      "position": {
+        "x": 4482.592891691847,
+        "y": 1785.1332627853035
+      },
+      "caption": "Operation",
+      "labels": [],
+      "properties": {
+        "Name": "Pipe Impersonate"
+      },
+      "style": {
+        "outside-position": "bottom",
+        "radius": 80,
+        "border-width": 10,
+        "border-color": "#68bc00",
+        "property-font-size": 30
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n20",
+      "fromId": "n28",
+      "toId": "n29",
+      "type": "",
+      "properties": {},
+      "style": {
+        "property-font-size": 30
+      }
+    },
+    {
+      "id": "n21",
+      "fromId": "n30",
+      "toId": "n31",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n22",
+      "fromId": "n31",
+      "toId": "n32",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n23",
+      "fromId": "n32",
+      "toId": "n33",
+      "type": "",
+      "properties": {},
+      "style": {}
+    },
+    {
+      "id": "n24",
+      "fromId": "n29",
+      "toId": "n30",
+      "type": "",
+      "properties": {},
+      "style": {}
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
